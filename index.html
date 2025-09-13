@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice AI Receptionist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="top-header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo for website png.png" alt="Your Logo">
+                <span class="brand-name">
+                    <span class="brand-expn">EXPN</span> <span class="brand-ai">AI</span>
+                </span>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#why-ai">Why Ai</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="https://calendly.com/v-atul1910/30min" class="cta-button">Schedule a call</a>
+                <button id="theme-toggle" class="theme-toggle-button" aria-label="Toggle dark and light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <canvas id="aurora-canvas"></canvas>
+            <div class="container" data-reveal>
+                <h1 data-animata="split-text" data-animata-stagger="0.03">The Future of Customer Communication is Here</h1>
+                <p>Our Voice AI Receptionist provides seamless, 24/7 support, ensuring you never miss a customer call again.</p>
+                <a href="https://calendly.com/v-atul1910/30min" class="cta-button">Let's Talk</a>
+            </div>
+        </section>
+        <section id="process" class="how-it-works-section">
+            <div class="container">
+                <h2 class="how-it-works-heading" data-reveal>How Our <span class="highlight">AI Receptionist</span> Works</h2>
+                <p class="how-it-works-subtitle" data-reveal>Four simple steps to ensure you never miss another important call</p>
+                <div class="how-it-works-cards">
+                    <div class="how-it-works-card" data-reveal>
+                        <div class="number-circle">1</div>
+                        <div class="icon-container"><i class="fas fa-phone-alt"></i></div>
+                        <h3>Customer calls your business</h3>
+                        <p>Incoming calls are instantly received by our AI system</p>
+                    </div>
+                    <div class="how-it-works-card" data-reveal data-reveal-delay="0.1">
+                        <div class="number-circle">2</div>
+                        <div class="icon-container"><i class="fas fa-robot"></i></div>
+                        <h3>AI answers instantly</h3>
+                        <p>Professional greeting with your custom business message</p>
+                    </div>
+                    <div class="how-it-works-card" data-reveal data-reveal-delay="0.2">
+                        <div class="number-circle">3</div>
+                        <div class="icon-container"><i class="fas fa-comments"></i></div>
+                        <h3>Provides smart responses</h3>
+                        <p>Handles FAQs, scheduling, and call routing intelligently</p>
+                    </div>
+                    <div class="how-it-works-card" data-reveal data-reveal-delay="0.3">
+                        <div class="number-circle">4</div>
+                        <div class="icon-container"><i class="fas fa-headset"></i></div>
+                        <h3>Seamless handoff or wrap-up</h3>
+                        <p>Transfers to you when needed or completes the interaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="features-heading" data-reveal><span class="smart-text">Smart</span> Features That <span class="highlight">Save You Time &amp; Money</span></h2>
+                <p class="features-subtitle" data-reveal>Everything you need to provide exceptional customer service without the overhead</p>
+                <div class="features-grid">
+                    <div class="feature-card" data-reveal>
+                        <div class="icon-container"><i class="fas fa-route"></i></div>
+                        <h3>Call Answering & Routing</h3>
+                        <p>Professional call handling with intelligent routing to the right person or department.</p>
+                    </div>
+                    <div class="feature-card" data-reveal data-reveal-delay="0.1">
+                        <div class="icon-container"><i class="fas fa-calendar-check"></i></div>
+                        <h3>Appointment Booking</h3>
+                        <p>Seamlessly integrates with your calendar to book appointments and meetings automatically.</p>
+                    </div>
+                    <div class="feature-card" data-reveal data-reveal-delay="0.2">
+                        <div class="icon-container"><i class="fas fa-brain"></i></div>
+                        <h3>FAQ Automation</h3>
+                        <p>Instantly answers common customer questions with accurate, personalized responses.</p>
+                    </div>
+                    <div class="feature-card" data-reveal>
+                        <div class="icon-container"><i class="fas fa-clock"></i></div>
+                        <h3>24/7 Availability</h3>
+                        <p>Never miss a call again. Your AI receptionist works around the clock, every day.</p>
+                    </div>
+                    <div class="feature-card" data-reveal data-reveal-delay="0.1">
+                        <div class="icon-container"><i class="fas fa-globe"></i></div>
+                        <h3>Multi-Language Support</h3>
+                        <p>Communicate with customers in multiple languages for better global reach.</p>
+                    </div>
+                    <div class="feature-card" data-reveal data-reveal-delay="0.2">
+                        <div class="icon-container"><i class="fas fa-piggy-bank"></i></div>
+                        <h3>Cost Savings vs. Hiring</h3>
+                        <p>Save thousands in staffing costs while providing better customer service coverage.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="why-ai" class="why-choose-section">
+            <div class="container">
+                <h2 class="why-choose-heading" data-reveal>Why Businesses Choose <span class="highlight">Our AI Receptionist</span></h2>
+                <p class="why-choose-subtitle" data-reveal>Join thousands of businesses already transforming their customer service</p>
+                <div class="why-choose-cards">
+                    <div class="why-choose-card" data-reveal>
+                        <div class="icon-container"><i class="fas fa-bullseye"></i></div>
+                        <h3>Never miss leads</h3>
+                        <p>Every call is answered instantly, ensuring no potential customer slips through the cracks.</p>
+                    </div>
+                    <div class="why-choose-card" data-reveal data-reveal-delay="0.1">
+                        <div class="icon-container"><i class="fas fa-smile-beam"></i></div>
+                        <h3>Delight customers</h3>
+                        <p>Provide immediate, helpful responses that make customers feel valued and heard.</p>
+                    </div>
+                    <div class="why-choose-card" data-reveal data-reveal-delay="0.2">
+                        <div class="icon-container"><i class="fas fa-hand-holding-usd"></i></div>
+                        <h3>Save on staffing costs</h3>
+                        <p>Eliminate the need for full-time receptionist salaries, benefits, and training expenses.</p>
+                    </div>
+                    <div class="why-choose-card" data-reveal data-reveal-delay="0.3">
+                        <div class="icon-container"><i class="fas fa-chart-line"></i></div>
+                        <h3>Scale your business</h3>
+                        <p>Handle unlimited calls simultaneously without hiring additional staff members.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 data-reveal>Loved by <span class="highlight">Business Owners</span></h2>
+                <p class="subtitle" data-reveal>See how our AI receptionist is transforming businesses</p>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-reveal>
+                        <p class="quote">"Our AI receptionist has been a game-changer! We've reduced missed appointments by 80% and our patients love the instant responses. It's like having a professional receptionist working 24/7."</p>
+                        <div class="author">
+                            <img src="https://i.pravatar.cc/40?u=sarah" alt="Sarah Johnson">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>Small Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-reveal data-reveal-delay="0.1">
+                        <p class="quote">"The multi-language support is incredible. We serve customers who speak different languages, and the AI handles reservations seamlessly in English, Spanish, and Mandarin. Customer satisfaction has never been higher."</p>
+                        <div class="author">
+                            <img src="https://i.pravatar.cc/40?u=michael" alt="Michael Chen">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>Restaurant Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-reveal data-reveal-delay="0.2">
+                        <p class="quote">"We were spending $4,000/month on reception staff. Now we get better coverage for a fraction of the cost, and our leads are captured even during off-hours. The ROI is incredible!"</p>
+                        <div class="author">
+                            <img src="https://i.pravatar.cc/40?u=emily" alt="Emily Rodriguez">
+                            <div>
+                                <h4>Emily Rodriguez</h4>
+                                <p>Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faqs" class="faq-section">
+            <div class="faq-container" data-reveal>
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-card">
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            How long does it take to set up a Voice AI agent?
+                            <span class="toggle-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            Most projects are ready within 5–10 business days, depending on complexity. Simple call-answering agents can go live in a few days, while advanced setups with multiple integrations may take slightly longer.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            Can the Voice AI be customized for my business needs?
+                            <span class="toggle-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            Yes. We fully tailor the AI to your business—covering tone of voice, call scripts, FAQs, appointment booking, industry-specific workflows, and escalation rules—so that it sounds natural and represents your brand.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            What integrations are available?
+                            <span class="toggle-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            Our Voice AI can connect seamlessly with SMS, Slack, CRM systems, calendars, and helpdesk tools. Whatever software you use, we make sure it integrates smoothly. In most cases, SMS is used as the primary method to notify both you and your customer about confirmed appointments, reminders, and updates.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            Does the AI handle multiple use cases?
+                            <span class="toggle-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            Absolutely. From call answering and routing, appointment booking, order status updates, lead qualification, and FAQs, the AI can be trained for multiple scenarios to reduce workload on your team.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            How is the AI installed? Do I need special hardware?
+                            <span class="toggle-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            No special hardware is required. The system works over the cloud. Once we connect it to your existing phone line or VoIP system, it can start handling calls instantly.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="faq-item">
+                        <button class="faq-header">
+                            What happens if the AI can’t handle a customer’s request?
+                            <span class="toggle-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            If the AI reaches a question or task it cannot answer, it will seamlessly transfer the call to a human agent (if enabled) or take a message so you never miss an opportunity.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 EXPN AI. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="aurora.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animata@1.0.1/dist/animata.min.js"></script>
+</body>
+</html>
